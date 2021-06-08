@@ -34,7 +34,7 @@ function ETicket({ location }) {
       }
 
       alert(`Maaf, Kode data ${guestCode} tidak ditemukan. Mohon di cek lagi..`);
-      window.location.assign('https://jaliliin.herokuapp.com');
+      window.location.assign('https://jalil-iin.netlify.app/');
     },
     [data, nameEticket, value],
   );
