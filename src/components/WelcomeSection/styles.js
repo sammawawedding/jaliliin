@@ -205,7 +205,7 @@ export const styWrapper = css`
   }
 
   a {
-    color: #f6d55c;
+    color: #5cf6a4;
   }
 
   @media screen and (max-width: 330px) {
@@ -230,7 +230,7 @@ export const styWrapperCount = css`
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: rgba(246, 213, 92, 1);
+  background: rgba(92, 246, 164, 1);
   margin: 8px;
   border-radius: 50%;
   position: relative;
@@ -279,7 +279,7 @@ export const styButtonWrapper = css`
   justify-content: center;
 
   .btn {
-    background: #f6d55c;
+    background: #5cf6a4;
     color: #fff;
     border: none;
   }

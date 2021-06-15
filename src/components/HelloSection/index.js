@@ -1,13 +1,13 @@
 import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
 
-import Bride from '@assets/images/p-dinda-2.jpg';
-import Groom from '@assets/images/p-indra.jpg';
+import Bride from '@assets/images/p-iin.jpeg';
+import Groom from '@assets/images/p-jalil.jpeg';
 
 import { styWrapper } from './styles';
 
 function HelloSection({ isInvitation }) {
-  const finalSubtitle = isInvitation ? '10 Juni 2021, Dukuh kapuran RT 03/RW 01 Desa Kapuran, Kec. Badegan, Kab. Ponorogo, Jawa Timur.' : 'Kamis, 10 Juni 2021';
+  const finalSubtitle = isInvitation ? '27 Juli 2021, Dukuh kapuran RT 03/RW 01 Desa Kapuran, Kec. Badegan, Kab. Ponorogo, Jawa Timur.' : 'Selasa, 27 Juli 2021';
 
   return (
     <Fragment>
