@@ -29,6 +29,13 @@ function ConfirmationSection({ isInvitation, guestName }) {
           </Link>
           </div>
         </div>
+        <div className="row">
+          <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
+            <p>
+              Klik gambar <br />atau <br />scan barcode diatas
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
