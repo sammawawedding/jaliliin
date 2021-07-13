@@ -29,7 +29,7 @@ function LocationSection() {
           <div className="row">
             <div className="col-md-10 col-md-offset-1">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3013.833611013498!2d111.36055493241922!3d-7.881137718168647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e799dc6b0ab1ced%3A0xfa95520e5be985da!2sBalai%20Desa%20Kapuran!5e0!3m2!1sid!2sid!4v1623147032158!5m2!1sid!2sid"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15808.605412704075!2d111.34846927710858!3d-7.879227909174261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e799dc611f2e14b%3A0xd6763bac3efc5870!2sKapuran%2C%20Badegan%2C%20Kabupaten%20Ponorogo%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1626149008795!5m2!1sid!2sid"
                 width="100%"
                 height="450"
                 frameBorder="0"

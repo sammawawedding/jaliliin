@@ -1723,8 +1723,8 @@ form label {
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  background: #f366a3 !important;
-  border-color: #f366a3 !important;
+  background: #a1ebc3 !important;
+  border-color: #a1ebc3 !important;
 }
 .btn-primary.btn-outline {
   background: transparent;

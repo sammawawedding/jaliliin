@@ -13,7 +13,7 @@ function GenerateLink() {
 
   const { data, loading } = useGuestData();
 
-  const URL = `https://jalil-iin.netlify.app/?to=${encodeURIComponent(name)}`;
+  const URL = `https://jalil-iin.netlify.app/?type=invitation&?to=${encodeURIComponent(name)}`;
 
   const handleChange = (e) => {
     setType(parseInt(e.target.value, 10));

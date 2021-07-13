@@ -3,8 +3,9 @@ import { string, bool } from 'prop-types';
 import { Link } from 'gatsby';
 
 import { styWrapper, styFlex } from './styles';
+import Dana from '@assets/images/dana.jpeg';
 
-function ConfirmationSection({ isInvitation, guestName, codeLink }) {
+function ConfirmationSection({ isInvitation, guestName }) {
   if (!isInvitation) return null;
 
   return (
@@ -15,16 +16,17 @@ function ConfirmationSection({ isInvitation, guestName, codeLink }) {
           <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
             <h2 className="main-font">{` Apakah kamu hadir, ${guestName}?`}</h2>
             <p>
-              Atas kehadiran & do'a restu saudara/i, <br /> kami ucapkan terima kasih. Wassalamualaikum Warahmatullahi
-              Wabarakatuh.
+              Berdasarkan kondisi saat ini, tanpa mengurangi rasa hormat, diharapkan tetap bisa menjalin silaturahmi
+              melalui media online, <br /> bukan dengan kontak fisik secara langsung. <br />
+              Mohon pengertiannya.
             </p>
           </div>
         </div>
         <div className="row" css={styFlex}>
           <div className="col-md-3">
-            <Link to={`e-ticket?${codeLink}`}>
-              <button className="btn btn-default btn-block">Lihat e-Ticket</button>
-            </Link>
+          <Link to={`https://link.dana.id/qr/jk7bba4`}>
+            <img src={Dana} alt="groom" className="img-responsive" loading="lazy" />
+          </Link>
           </div>
         </div>
       </div>
@@ -33,7 +35,6 @@ function ConfirmationSection({ isInvitation, guestName, codeLink }) {
 }
 
 ConfirmationSection.propTypes = {
-  codeLink: string.isRequired,
   isInvitation: bool.isRequired,
   guestName: string.isRequired,
 };
